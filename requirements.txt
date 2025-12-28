@@ -1,0 +1,41 @@
+# Core dependencies
+fastapi==0.104.1
+uvicorn[standard]==0.24.0
+streamlit==1.28.1
+pydantic==2.5.0
+python-multipart==0.0.6
+
+# Deep Learning
+torch==2.1.1
+torchvision==0.16.1
+torchaudio==2.1.1
+
+# Image and audio processing
+opencv-python==4.8.1.78
+PIL==10.0.1
+librosa==0.10.0
+soundfile==0.12.1
+scipy==1.11.4
+numpy==1.24.3
+
+# Video processing
+ffmpeg-python==0.2.1
+moviepy==1.0.3
+
+# Utilities
+pyyaml==6.0.1
+requests==2.31.0
+python-dotenv==1.0.0
+tqdm==4.66.1
+loguru==0.7.2
+
+# Optional: for development and testing
+pytest==7.4.3
+black==23.12.0
+flake8==6.1.0
+pytest-cov==4.1.0
+pytest-asyncio==0.21.1
+
+# Optional: for API documentation
+python-jose[cryptography]==3.3.0
+passlib[bcrypt]==1.7.4
